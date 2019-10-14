@@ -8,6 +8,7 @@ Some things to keep in mind:
 - Concepts in programming usually have real-world analogs: language, syntax, object, document, etc. Think about these concepts through the lens of their real-world counterparts to understand them at a high level.
 	- Also a lot of the logical concepts come from formal logic and math (e.g., conditionals, sums/loops, etc.)
 	- This is kind of good to understand but mostly it's just neat
+- Modern web development has a bunch of abstractions that build on older concepts. It helps to understand those older concepts to understand how and why what we're using works the way it does.
 
 ## Intro to JavaScript
 
@@ -38,6 +39,9 @@ Follow along using the JSFiddle [here](https://jsfiddle.net/5pb3xvn8/).
 - CSS is the markup language that lets us describe how we want the components of that outline to appear
 - Refer to types of elements (e.g., `html`, `body`) by their name
 - Refer to classes with a `.` followed by the class name (e.g.,  `.lastResult`, `.form`)
+- There's a bunch of properties to choose from, more than anyone can keep in their head
+	- Look up elements and concepts on MDN or CSS Tricks
+- Can be written in an HTML file using the `<style>` tag or in its own file and referenced
 
 ### Back-end overview
 
@@ -60,6 +64,12 @@ Follow along using the JSFiddle [here](https://jsfiddle.net/5pb3xvn8/).
 		- Sometimes (imo, often) confusing conceptially
 		- Basically magic
 
+### Project time!
+
+- Source: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Silly_story_generator
+	- [Source code](https://jsfiddle.net/wmb3217r/)
+	- [Raw text](https://raw.githubusercontent.com/mdn/learning-area/master/javascript/introduction-to-js-1/assessment-start/raw-text.txt)
+
 ### Resources
 
 - MDN:
@@ -71,8 +81,28 @@ Follow along using the JSFiddle [here](https://jsfiddle.net/5pb3xvn8/).
 
 ## Creating a web app: back-end
 
-- Express
-- Calling an API
+### High-level concepts
+
+- How to talk to a web app:
+	- Two parties: client (server) and server
+	- User is the one making the requests, server is the one sending the responses
+	- HTTP is the medium used to send messages between the two
+- How a web app works:
+	- MVC: model, view, controller
+	- Model:
+	- View:
+	- Controller:
+- Resources:
+	- [Client-server model: Wikipedia](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)
+	- [MVC architecture: Wikipedia](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
+
+### Express: Creating a server
+
+
+
+### HTTP: Talking to people
+
+
 
 ## Creating a web app: front-end
 
