@@ -6,8 +6,8 @@ Some things to keep in mind:
 
 - Don't work for the technology, make it work for you. Envision what you want from an application, break down that idea into smaller ideas, then search how to implement and connect those ideas.
 - Concepts in programming usually have real-world analogs: language, syntax, object, document, etc. Think about these concepts through the lens of their real-world counterparts to understand them at a high level.
-		- Also a lot of the logical concepts come from formal logic and math (e.g., conditionals, sums/loops, etc.)
-		- This is kind of good to understand but mostly it's just neat
+	- Also a lot of the logical concepts come from formal logic and math (e.g., conditionals, sums/loops, etc.)
+	- This is kind of good to understand but mostly it's just neat
 
 ## Intro to JavaScript
 
