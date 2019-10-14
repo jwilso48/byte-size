@@ -21,15 +21,15 @@ Follow along using the JSFiddle [here](https://jsfiddle.net/5pb3xvn8/).
 - HTML is the markup language that lets us define the outline of this web document
 - Think of it as outlining an essay or letter
 - `<head>` tag contains the header: the webpage title, any data about the document itself, etc.
-		- Essay metaphor: MLA header, date, title, etc.
+	- Essay metaphor: MLA header, date, title, etc.
 - `<body>` tag contains the body of the page
 		- Essay metaphor: the body of your essay
 - Other tags:
-		- `<h1>`: header
-		- `<p>`: paragraph
-		- `<div>`: "division" of document; outlines snippet we want to refer to later
-		- `<label>`: label for text box
-		- `<input>`: text box
+	- `<h1>`: header
+	- `<p>`: paragraph
+	- `<div>`: "division" of document; outlines snippet we want to refer to later
+	- `<label>`: label for text box
+	- `<input>`: text box
 - `class` attribute: unique name that lets us refer to an element later
 
 #### CSS
