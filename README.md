@@ -24,7 +24,7 @@ Follow along using the JSFiddle [here](https://jsfiddle.net/5pb3xvn8/).
 - `<head>` tag contains the header: the webpage title, any data about the document itself, etc.
 	- Essay metaphor: MLA header, date, title, etc.
 - `<body>` tag contains the body of the page
-		- Essay metaphor: the body of your essay
+	- Essay metaphor: the body of your essay
 - Other tags:
 	- `<h1>`: header
 	- `<p>`: paragraph
@@ -89,20 +89,38 @@ Follow along using the JSFiddle [here](https://jsfiddle.net/5pb3xvn8/).
 	- HTTP is the medium used to send messages between the two
 - How a web app works:
 	- MVC: model, view, controller
-	- Model:
-	- View:
-	- Controller:
+	- Model: manages data, logic, and rules of the app
+	- View: visual component that uses data from the model; the "front-end" of the app
+	- Controller: facilitates sending of input to model and view
+	- Sometimes people reduce this to just the "front-end" (V) and the "back-end" (M and C)
 - Resources:
 	- [Client-server model: Wikipedia](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)
 	- [MVC architecture: Wikipedia](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
 
+### Node: Leaving the browser
+
+- Up until now, we've just been running our code in the browser. But that's not how most modern web apps use JS.
+- Introducing [Node.js](https://en.wikipedia.org/wiki/Node.js), a program that lets us run our JavaScript on a server rather than a browser
+	- Known as a **runtime environment**, a digital place where our code can run
+- Node offers a bunch of advantages:
+	- Write a full-stack web app in one language (as opposed to older stacks, like [LAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundle)))
+	- JavaScript is natively supported by browsers, unlike languages like Python or Java
+	- Write desktop apps that run anywhere using [Electron](https://en.wikipedia.org/wiki/Electron_(software_framework))
+
 ### Express: Creating a server
 
-
+- About Express:
+	- The most popular server framework for Node.js
+	- Facilitates the M and C parts of MVC
+- Resources:
+	- [Express docs (Getting started, Guide)](https://expressjs.com/)
+	- [Build a Complete MVC Website With ExpressJS](https://code.tutsplus.com/tutorials/build-a-complete-mvc-website-with-expressjs--net-34168)
 
 ### HTTP: Talking to people
 
 
+
+### Resources
 
 ## Creating a web app: front-end
 
