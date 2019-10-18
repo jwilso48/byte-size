@@ -10,13 +10,9 @@ Some things to keep in mind:
 	- This is kind of good to understand but mostly it's just neat
 - Modern web development has a bunch of abstractions that build on older concepts. It helps to understand those older concepts to understand how and why what we're using works the way it does.
 
-## Intro to JavaScript
+## Intro to HTML and CSS
 
-Follow along using the JSFiddle [here](https://jsfiddle.net/5pb3xvn8/).
-
-### Front-end overview
-
-#### HTML
+### HTML
 
 - "Hypertext Markup Language"
 - HTML is the markup language that lets us define the outline of this web document
@@ -33,7 +29,7 @@ Follow along using the JSFiddle [here](https://jsfiddle.net/5pb3xvn8/).
 	- `<input>`: text box
 - `class` attribute: unique name that lets us refer to an element later
 
-#### CSS
+### CSS
 
 - "Cascading Style Sheets"
 - CSS is the markup language that lets us describe how we want the components of that outline to appear
@@ -43,7 +39,26 @@ Follow along using the JSFiddle [here](https://jsfiddle.net/5pb3xvn8/).
 	- Look up elements and concepts on MDN or CSS Tricks
 - Can be written in an HTML file using the `<style>` tag or in its own file and referenced
 
-### Back-end overview
+### Your turn!
+
+- Make a webpage about yourself or whatever you want using HTML and CSS
+- Must include:
+	- Picture
+	- Headers
+	- A link
+	- A list
+	- Paragraph text
+	- Pretty CSS for everything
+
+### Resources
+
+- [JSFiddle](https://jsfiddle.net/): use this as your development space
+- [Learning HTML: Guides and tutorials](https://developer.mozilla.org/en-US/docs/Learn/HTML)
+- [Learn to style HTML using CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
+
+## Intro to JavaScript
+
+Follow along using the JSFiddle [here](https://jsfiddle.net/5pb3xvn8/).
 
 - Source: [A first splash into JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash)
 
@@ -118,10 +133,17 @@ Follow along using the JSFiddle [here](https://jsfiddle.net/5pb3xvn8/).
 
 ### HTTP: Talking to people
 
-
-
-### Resources
+- Use Axios
 
 ## Creating a web app: front-end
 
-- 
+- Use Pug
+
+### Your final quest
+
+- Make a simple web app using Express, an API, and a front end (either raw HTML/CSS, Pug, or other templating engine)
+- Resources:
+	- Express docs
+	- Pug docs
+	- Axios docs
+	- All of the docs
