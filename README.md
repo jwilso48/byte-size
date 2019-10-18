@@ -48,6 +48,7 @@ Some things to keep in mind:
 	- A link
 	- A list
 	- Paragraph text
+	- Two other tags of your choice
 	- Pretty CSS for everything
 
 ### Resources
@@ -94,7 +95,7 @@ Follow along using the JSFiddle [here](https://jsfiddle.net/5pb3xvn8/).
 - Etc.:
 	- [Span and div: Wikipedia](https://en.wikipedia.org/wiki/Span_and_div)
 
-## Creating a web app: back-end
+## Creating a web app
 
 ### High-level concepts
 
